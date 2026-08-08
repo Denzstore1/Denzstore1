@@ -67,7 +67,7 @@
 
 <div align="center">
 
-### ⌁ DENZ TEMPEST — ARSENAL ⌁
+### ⌁ DENZ TEMPEST ⌁
 
 </div>
 
@@ -81,7 +81,7 @@
 
 ![CSS](https://img.shields.io/badge/CSS-0d0d0d?style=flat-square&logo=css3&logoColor=00FFF7&labelColor=0d0d0d)
 
- 
+ <img src="https://raw.githubusercontent.com/Denzstore1/Denzstore1/main/arsenal-card.svg" width="100%" />
 
 ![JS](https://img.shields.io/badge/JavaScript-0d0d0d?style=flat-square&logo=javascript&logoColor=00FFF7&labelColor=0d0d0d)
 
