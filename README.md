@@ -80,19 +80,19 @@
 
 ---
 
-### 🚀 Projects
+###  Projects
 
 | Project | Deskripsi | Stack |
 |---|---|---|
 | **denz-store** | Toko produk digital full stack + portofolio pribadi 3D | Express, EJS, MySQL, Three.js |
 | **WhatsApp Bot** | Bot otomatis dengan sticker maker & jadwal pelajaran | Node.js, Baileys |
-| **IT Club Web** | Landing page eskul + sistem absensi realtime | HTML, Firebase |
+
 
 ---
 
 <div align="center">
 
-### 📊 Stats
+###  Stats
 
 <img src="https://github-readme-stats.vercel.app/api?username=Denzstrore0&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" width="48%" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Denzstrore0&theme=tokyonight&hide_border=true&background=0d1117" width="48%" />
@@ -132,7 +132,7 @@
 
 ---
 
-### ⚡ About Me
+###  About Me
 
 ```yaml
 name: Denz
