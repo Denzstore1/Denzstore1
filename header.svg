@@ -1,0 +1,54 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0d0d"/>
+      <stop offset="100%" stop-color="#160f0f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="260" rx="14" fill="url(#bg)" stroke="#FFB300" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <path d="M20,40 L20,20 L40,20" stroke="#FFB300" stroke-width="2" fill="none"/>
+  <path d="M880,40 L880,20 L860,20" stroke="#FFB300" stroke-width="2" fill="none"/>
+  <path d="M20,220 L20,240 L40,240" stroke="#FFB300" stroke-width="2" fill="none"/>
+  <path d="M880,220 L880,240 L860,240" stroke="#FFB300" stroke-width="2" fill="none"/>
+
+  <circle cx="40" cy="45" r="4" fill="#FF3B3B">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="55" cy="45" r="4" fill="#FFB300">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="45" r="4" fill="#00FFF7">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="450" y="115" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="52" font-weight="700" letter-spacing="4" fill="#FFB300" filter="url(#glow)">
+    DENZ TEMPEST
+    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+  </text>
+
+  <text x="450" y="150" text-anchor="middle" font-family="Consolas, monospace" font-size="16" letter-spacing="3" fill="#00FFF7">WEB DEVELOPER • BACKEND • AUTOMATION</text>
+
+  <text x="450" y="178" text-anchor="middle" font-family="Consolas, monospace" font-size="13" font-style="italic" fill="#888">Building projects, learning systems, breaking things, fixing them.</text>
+
+  <g font-family="Consolas, monospace" font-size="12" font-weight="600">
+    <rect x="255" y="200" width="150" height="30" rx="15" fill="none" stroke="#FF6B00" stroke-width="1.2"/>
+    <circle cx="272" cy="215" r="3" fill="#FF6B00"/>
+    <text x="336" y="219" text-anchor="middle" fill="#FF6B00">OPEN TO BUILD</text>
+
+    <rect x="415" y="200" width="120" height="30" rx="15" fill="none" stroke="#00BFFF" stroke-width="1.2"/>
+    <circle cx="432" cy="215" r="3" fill="#00BFFF"/>
+    <text x="480" y="219" text-anchor="middle" fill="#00BFFF">INDONESIA</text>
+
+    <rect x="545" y="200" width="145" height="30" rx="15" fill="none" stroke="#FF3B3B" stroke-width="1.2"/>
+    <circle cx="562" cy="215" r="3" fill="#FF3B3B"/>
+    <text x="622" y="219" text-anchor="middle" fill="#FF3B3B">FULL STACK &amp; BOTS</text>
+  </g>
+</svg>
